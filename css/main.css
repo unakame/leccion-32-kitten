@@ -2,7 +2,6 @@ img{
   display: block;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
 }
 
 /*body{
@@ -10,8 +9,47 @@ background-image: url("Miaw/assets/img/dawn.png");
 
 }*/
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
     body {
-        background-image: url(Miaw/assets/img/dawn.png);
+        background-image: url(../Miaw/assets/img/dawn.png);
     }
+}*/
+
+/*#third{
+  background: url(../Miaw/assets/img/Landscape.jpg);
+
+}
+
+#second{
+  background: url(../Miaw/assets/img/dawn.png);
+  width: 100%;
+}
+
+#first{
+  background: url(../Miaw/assets/img/maxresdefault.jpg);
+  width: 100%;
+}*/
+
+body{
+  background: url(../Miaw/assets/img/Landscape.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-image: url(../Miaw/assets/img/dawn.png);
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    body {
+        background-image: url(../Miaw/assets/img/maxresdefault.jpg);
+    }
+}
+
+source{
+    size: 100% 100%;
 }
