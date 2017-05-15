@@ -1,9 +1,3 @@
-img{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
 /*body{
 background-image: url("Miaw/assets/img/dawn.png");
 
@@ -29,6 +23,9 @@ background-image: url("Miaw/assets/img/dawn.png");
   background: url(../Miaw/assets/img/maxresdefault.jpg);
   width: 100%;
 }*/
+*{
+  box-sizing: border-box;
+}
 
 body{
   background: url(../Miaw/assets/img/Landscape.jpg);
@@ -50,6 +47,9 @@ body{
     }
 }
 
-source{
-    size: 100% 100%;
+
+img{
+  display: block;
+  margin: 0 auto;
+
 }
