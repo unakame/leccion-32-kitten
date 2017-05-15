@@ -1,0 +1,15 @@
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+/*body{
+background-image: url("Miaw/assets/img/dawn.png");
+
+}*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url("Miaw/assets/img/dawn.png");
+    }
+}
